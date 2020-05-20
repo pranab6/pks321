@@ -1,0 +1,37 @@
+pransaho@LIN39000364 MINGW64 ~/Downloads/old_download/OneDrive - Capgemini/Desktop/Java1/Dev1 (master)
+$ echo "# myjavaProject" >> README.md
+
+pransaho@LIN39000364 MINGW64 ~/Downloads/old_download/OneDrive - Capgemini/Desktop/Java1/Dev1 (master)
+$ git init
+Initialized empty Git repository in C:/Users/pransaho/Downloads/old_download/OneDrive - Capgemini/Desktop/Java1/Dev1/.git/
+
+pransaho@LIN39000364 MINGW64 ~/Downloads/old_download/OneDrive - Capgemini/Desktop/Java1/Dev1 (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+pransaho@LIN39000364 MINGW64 ~/Downloads/old_download/OneDrive - Capgemini/Desktop/Java1/Dev1 (master)
+$ git commit -m "first commit"
+[master (root-commit) 3195d2a] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+pransaho@LIN39000364 MINGW64 ~/Downloads/old_download/OneDrive - Capgemini/Desktop/Java1/Dev1 (master)
+$ git remote add origin https://github.com/pranab6/myjavaProject.git
+
+pransaho@LIN39000364 MINGW64 ~/Downloads/old_download/OneDrive - Capgemini/Desktop/Java1/Dev1 (master)
+$ git remote add origin https://github.com/pranab6/myjavaProject.git
+fatal: remote origin already exists.
+
+pransaho@LIN39000364 MINGW64 ~/Downloads/old_download/OneDrive - Capgemini/Desktop/Java1/Dev1 (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 227 bytes | 10.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/pranab6/myjavaProject.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+pransaho@LIN39000364 MINGW64 ~/Downloads/old_download/OneDrive - Capgemini/Desktop/Java1/Dev1 (master)
+$
